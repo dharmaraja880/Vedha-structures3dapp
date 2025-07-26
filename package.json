@@ -1,0 +1,25 @@
+{
+  "name": "vedha-3d-peb-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@react-three/fiber": "^8.13.5",
+    "@react-three/drei": "^9.72.4",
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.0.0"
+  },
+  "vercel": {
+    "buildCommand": "npm run build",
+    "outputDirectory": "dist"
+  }
+}
